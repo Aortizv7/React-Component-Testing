@@ -3,7 +3,7 @@
 exports[`Blog Blog renders with warning 1`] = `
 <div>
   <h1>
-    test
+    TEST
   </h1>
   <div>
     This is a lovely blog post
@@ -19,7 +19,7 @@ exports[`Blog Blog renders with warning 1`] = `
 exports[`Blog Blog renders without warning 1`] = `
 <div>
   <h1>
-    test
+    TEST
   </h1>
   <div>
     This is a lovely blog post

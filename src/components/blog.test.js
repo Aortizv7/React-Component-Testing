@@ -62,7 +62,7 @@ describe('Blog', ()=>{
     expect(snapshot).toMatchSnapshot();
   })
 
-  test('Blog had warning if warnign prop set', ()=>{
+  test('Blog had warning if warning prop set', ()=>{
     let title = "Test the Warning";
     let blog = "This is my blog about things";
     let warning = "This is a warning about the dangers of driving with your eyes closed.  Don't do it.";

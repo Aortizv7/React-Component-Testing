@@ -1,20 +1,22 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Blog extends Component {
-  constructor(props){
-    super(props);
-  }
-  uppercaseTitle(){
+  // constructor(props) {
+  //   super(props);
+  // }
+  uppercaseTitle() {
     return this.props.title.toUpperCase();
   }
-  onlyIfWarning(){
-    if (this.props.warning) return (<div className="warning">{this.props.warning}</div>)
-      return null;
+  onlyIfWarning() {
+    if (this.props.warning) {
+      return (<div className="warning">{this.props.warning}</div>)
+    }
+    return null;
   }
-  render(){
+  render() {
     return (
       <div>
-        <h1>{this.props.title}</h1>
+        <h1>{this.uppercaseTitle()}</h1>
         <div>{this.props.blog}</div>
         {this.onlyIfWarning()}
       </div>
